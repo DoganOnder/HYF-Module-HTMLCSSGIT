@@ -1,0 +1,19 @@
+Command Line Interface challenge
+A1)
+Creating a:
+ hidden file;
+		touch . (file name)
+		 touch . index.html 
+hidden folder;
+	mkdir . (folder name)
+mkdir . assets
+ Listing hidden files and folders
+		   ls -a
+
+ A2)
+ mkdir -p folder/another_folder/one_more/enough
+	mkdir -p /c/Users/myusername/these/folders/are/just/for/fun
+
+A3)
+echo second message >> file.txt
+
