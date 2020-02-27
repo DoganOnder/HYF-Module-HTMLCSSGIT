@@ -1,0 +1,262 @@
+* {margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {height: 100%;
+    
+
+}
+
+
+/*html, body {
+    scroll-behavior: smooth;
+}*/
+
+
+header{background-color:#100c08 ;
+
+background-position: center;
+/*
+position: fixed;
+width: 100%;
+z-index: 999;
+opacity: 70%;
+*/
+
+}
+
+.logo {opacity: 0.5;
+height: 60px;
+}
+
+.navbar {height: auto;
+    
+
+}
+.menu {float: right;
+list-style: none;
+margin: 10px;
+text-align: end;
+}
+
+.menu li{display: inline-block;
+margin: 10px 5px;
+
+
+}
+
+.menu li a{text-decoration: none;
+color: lightcyan;
+padding: 5px 5px;
+letter-spacing: 1px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 150%;
+
+}
+
+
+.menu li a:hover{background-color: rgb(51, 255, 0);
+    
+    
+    transition: .9s;
+/*border-radius: 40%;*/
+
+}
+
+
+
+
+
+
+
+.aboutme{
+    margin-top: 10px;
+    /*background-color: #12343b;*/
+    background-color: #0f2862;
+    height: 500px;
+    margin-right: 20px;
+margin-left: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+#persimg {
+    border-radius: 50%;
+  float:left;
+  /*filter: grayscale(70%);*/
+margin-right: 20px;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 80px;
+  display:block;
+  
+}
+
+.aboutme h1{font-size: 6em;
+text-decoration: none;
+color: rgb(51, 255, 0);
+
+text-align: left;
+margin-left: 40px;
+padding-top: 50px;
+
+}
+
+.aboutme h2 {font-size: 3em;
+text-align: left;
+margin-left: 40px;
+color: silver;
+}
+
+.aboutme p{text-align: justify;
+
+padding-right: 30px;
+margin-left: 40px;
+margin-top: 20px;
+font-size: 1.5em;
+color: whitesmoke;
+
+}
+
+
+
+.works{
+    /*background-color:#2d545e;*/
+    background-color:#393f4d;
+    height:600px;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-right: 20px;
+margin-left: 20px;
+text-align: justify;
+
+}
+
+.works h1{ text-align: left;
+margin-left: 20px;
+padding-top: 20px;
+margin-bottom: 20px;
+color: #feda6a;
+font-size: 2em;
+
+}
+.works h2{
+    color:#feda6a;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+
+.works ul li{
+
+    margin-top: 30px; 
+
+padding-bottom: 6px;
+border-bottom: solid 1px rgb(255, 252, 252);
+margin-right: 15px;
+
+}
+
+.works ul{list-style: none;
+    padding-left: 20px;
+margin-right: 5px;
+
+}
+
+.works ul p{padding-right: 10px;
+    padding-top: 10px;
+font-size: 1.2em;
+color: whitesmoke;
+}
+
+.Education{
+    background-color:#393f4d;
+    height: 400px;
+margin-top: 30px;
+margin-right: 20px;
+margin-left: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+.Education h1{text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #feda6a;
+    font-size: 2em;
+ 
+
+}
+
+.Education h2{
+    color:#feda6a;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+
+
+
+.Education ul li{
+
+    margin-top: 30px; 
+
+padding-bottom: 4px;
+border-bottom: solid 1px rgb(255, 252, 252);
+margin-right: 15px;
+
+}
+
+.Education ul{list-style: none;
+    padding-left: 20px;
+margin-right: 5px;
+
+}
+
+.Education ul p{padding-right: 10px;
+    padding-top: 10px;
+font-size: 1.2em;
+color: whitesmoke;
+}
+
+.works{margin-top: 50px;
+
+}
+
+
+
+/*
+.contact{background-color:#2d3436;; 
+    height: 40px;
+margin-top: 30px;
+color: black;
+text-align: center;
+
+}
+*/
+.contact{
+    margin-top:10px;
+    color:white;
+          width:100%;
+    height:30px;
+       background-color: #2d3436;
+        text-align: center;
+      margin-left:0px;
+ 
+  }
+  
+  #p1footer{ margin-top:50px;
+    text-align:center;
+  margin-bottom: 0px;
+  }
+  
