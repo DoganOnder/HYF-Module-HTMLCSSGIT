@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+<link rel="stylesheet" href="resume_style.css">
+<meta name="author" content="Dogan O">
+
+</head>
+<body>
+
+
+<header>
+
+<div class="navbar">
+
+<img src="hyf.jpg" class="logo">
+
+<ul class="menu">
+
+    <li><a href="#">About Me</a></li>
+    <li><a href="#wpart">Works</a></li>
+    <li><a href="#epart">Education</a></li>
+
+    <li><a href="#p1footer">Contact</a></li>
+
+
+</ul>
+
+
+
+</div>
+
+
+</header>
+
+
+<section>
+
+       <div class="aboutme">
+
+        <img id="persimg" src="foto.jpg" alt="personelphoto" >
+        
+        <h1>Hello</h1>
+
+
+        <h2>a bit about me</h2>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam commodi eveniet corrupti numquam dignissimos ipsum consectetur, similique deserunt cupiditate adipisci facere, voluptatum incidunt modi placeat, magni dolore suscipit impedit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid, voluptatibus commodi deleniti eaque mollitia eveniet necessitatibus labore, minima magnam dignissimos nostrum repudiandae facilis beatae deserunt libero quas consequuntur cupiditate!
+        </p>
+        
+        
+        </div>
+
+
+
+</section>
+
+<!--   
+    
+    <section>
+<div class="Skills">
+
+<table>
+
+<tr>
+<td>IFRS</td>
+<td>😀😀😀😀😀</td>
+
+</tr>
+
+<tr>
+    <td>IAS</td>
+    <td>😀😀😀😀😀</td>
+    
+    </tr>
+    <tr>
+        <td>IPO</td>
+        <td>😀😀😀😀😀</td>
+        
+        </tr>
+        <tr>
+            <td>DERIVATIVES</td>
+            <td>😀😀😀😀😀</td>
+            
+            </tr>
+            <tr>
+                <td>ISAs</td>
+                <td>😀😀😀😀😀</td>
+                
+                </tr>
+                                       
+</table>
+
+</div>
+
+
+
+</section>
+
+-->
+
+
+<section>
+
+    <div class="works">
+
+   
+     
+     <h1 id="wpart">WORK EXPERIENCE</h1>
+
+    <ul>
+
+                <li> <h2>Co-Founder&CFO (07/2017-10/2018)</h2></li>
+                    
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam commodi eveniet corrupti numquam dignissimos ipsum consectetur, similique deserunt cupiditate adipisci facere, voluptatum incidunt modi placeat, magni dolore suscipit impedit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid, voluptatibus commodi deleniti eaque mollitia eveniet necessitatibus labore, minima magnam dignissimos nostrum repudiandae facilis beatae deserunt libero quas consequuntur cupiditate!
+                    </p>
+
+
+                    <li> <h2>Auditor/Quality Assurance Inspector (01/2014–08/2016)</h2></li>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam commodi eveniet corrupti numquam dignissimos ipsum consectetur, similique deserunt cupiditate adipisci facere, voluptatum incidunt modi placeat, magni dolore suscipit impedit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid, voluptatibus commodi deleniti eaque mollitia eveniet necessitatibus labore, minima magnam dignissimos nostrum repudiandae facilis beatae deserunt libero quas consequuntur cupiditate!
+                    </p>
+
+                    <li> <h2>Financial Analyst (01/2009–01/2014)</h2></li>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam commodi eveniet corrupti numquam dignissimos ipsum consectetur, similique deserunt cupiditate adipisci facere, voluptatum incidunt modi placeat, magni dolore suscipit impedit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquid, voluptatibus commodi deleniti eaque mollitia eveniet necessitatibus labore, minima magnam dignissimos nostrum repudiandae facilis beatae deserunt libero quas consequuntur cupiditate!
+                    </p>
+
+
+
+    </ul>
+
+
+
+     
+     
+     
+     
+     </div>
+
+
+
+</section>
+
+
+<section>
+
+    <div class="Education">
+
+     
+     
+     <h1 id="epart">EDUCATION</h1>
+
+
+     <ul>
+
+        <li> <h2>Hack Your Future (02/2019-)</h2></li>
+            
+            <p>Developer Candidate,</p>
+
+
+            <li> <h2>Bahcesehir University (2012)</h2></li>
+            
+            <p>MBA,</p>
+
+
+            <li> <h2>Istanbul University (2008)</h2></li>
+        <p>BSc Economics,</p>
+
+
+</ul>
+
+     
+     
+     </div>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+<div class="contact">
+    
+   
+      
+        <p id="p1footer"> loremipsum@dolar.com, +31 06 987 65 123, All Rights Reserved &copy 2020 by Dogan O.
+            </p>
+           
+        
+        
+       
+        
+        
+        
+        
+        
+             </div>
+      
+
+
+
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+</body>
+</html>
