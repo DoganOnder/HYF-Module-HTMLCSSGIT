@@ -77,7 +77,7 @@ img {
 img {
   animation-duration: 4s;
   animation-name: slidein;
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
 }
 
 @keyframes slidein {
