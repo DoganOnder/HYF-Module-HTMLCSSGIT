@@ -309,6 +309,7 @@ hr {
 
 .meerNews {
   display: flex;
+  color:purple;
 
   margin-left: 70px;
 }
