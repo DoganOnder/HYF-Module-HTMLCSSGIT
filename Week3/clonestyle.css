@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "RO Sans", Calibri, sans-serif;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  line-height: 1.3em;
+}
+.Logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding: 0px 15px;
+}
+.Links {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background-color: #01689b;
+  min-height: 80px;
+  margin-top: 20px;
+}
+
+.Links h1 {
+  margin: auto 25px;
+  padding: 10px;
+}
+
+.links-items ul {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links-items ul li {
+  font-size: 20px;
+  margin: 26.5px 5px;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.links-items ul li:hover,
+.Links h1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.searchBar {
+  height: 3rem;
+  width: 30%;
+  margin-top: 90px;
+  margin-right: 90px;
+  display: flex;
+}
+.searchBar input {
+  padding: 5px;
+  height: 53px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.searchBar i {
+  padding: 5px;
+  height: 50px;
+  text-align: center;
+  width: 40px;
+  background-color: black;
+  color: white;
+}
+
+hr {
+  width: 90%;
+  margin-left: 5%;
+}
+
+@media (max-width: 760px) {
+  .Links {
+    display: block;
+  }
+  .links-items ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  .Links h1 {
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 0;
+  }
+  .links-items ul {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+    line-height: 0;
+  }
+  .Links h1:hover,
+  .links-items ul li:hover {
+    text-decoration: underline;
+  }
+  .searchBar {
+    margin: 10px;
+    width: 94%;
+  }
+}
+
+/* -------------------- veel bekeken ------------------------ */
+
+.part1 {
+  background-image: url("images/Capture1.JPG");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  margin-top: 0;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 30px;
+}
+
+.veelBekeken {
+  background-color: white;
+  margin-left: 20px;
+  margin: 20px;
+  height: auto;
+}
+
+.veelBekeken h2 {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "RO Sans", Calibri, sans-serif;
+}
+
+.veelBekeken details summary {
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  color: rgb(1, 104, 155);
+  font-family: "RO Sans", Calibri, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.veelBekeken details summary:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .Part1 {
+    margin: 0;
+    padding: 0;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+  .search {
+    margin: 10px;
+    width: 94%;
+  }
+  .veelBekeken {
+    margin-top: 10px;
+    height: auto;
+    font-size: 1rem;
+    line-height: 0;
+  }
+}
+
+/* ------------------------- information --------------------------------- */
+.part2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.part2 h3,
+.nieuws-items h3 {
+  color: rgb(1, 104, 155);
+}
+
+.part2 article :hover {
+  cursor: pointer;
+}
+
+.part2 article {
+  width: 300px;
+  margin: 25px 0;
+}
+
+.part2 h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+  .part2 article {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .part2 article {
+    width: 90%;
+  }
+  .part2 article h3 {
+    margin-left: 0;
+  }
+}
+
+/*-----------------Uitgelicht News Part-------------------*/
+
+.uitgelicht,
+.nieuws {
+  display: block;
+}
+
+.uitgelicht h1,
+.nieuws h1 {
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.uitgelicht-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.uitgelicht img {
+  width: 100%;
+}
+
+.uitgelicht-items article img {
+  padding-right: 20px;
+}
+
+.uitgelicht-items article h3 {
+  color: rgb(1, 104, 155);
+}
+
+.uitgelicht article h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.uitgelicht article {
+  width: 400px;
+  margin: 10px 0;
+}
+
+.nieuws-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nieuws-items article {
+  width: 400px;
+  margin: 40px 0;
+  padding: 0px 15px;
+  font-size: 2rem;
+}
+
+.nieuws-items article :hover {
+  cursor: pointer;
+}
+
+.nieuws h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+  .uitgelicht-items article,
+  .nieuws-items article {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .uitgelicht-items article,
+  .nieuws-items article {
+    width: 100%;
+  }
+}
+
+/*--------------more news--------------------------------*/
+
+.meerNews1 {
+  margin-left: 70px;
+}
+
+.meerNews {
+  display: flex;
+
+  margin-left: 70px;
+}
+
+.meerNews a summary {
+  display: block;
+}
+
+.meerNews article {
+  border: 4px solid lightblue;
+  text-align: center;
+  width: 400px;
+  margin-right: 20px;
+  font-weight: bold;
+  padding: 30px;
+  line-height: 2em;
+}
+
+.box1 p:nth-child(1),
+.box1 p:nth-child(4) {
+  color: #01689b;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.box2 p:nth-child(2),
+.box2 p:nth-child(3) {
+  color: #a90061;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+@media (max-width: 990px) {
+  .moreNews {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .moreNews {
+    width: 100%;
+  }
+
+  .box1,
+  .box2 {
+    display: none;
+  }
+}
+
+/*-----------------------------------footer------------------------*/
+
+footer {
+  display: flex;
+  background-color: #01689b;
+  justify-content: space-between;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 250px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+
+footer h2 {
+  margin: 30px 0 0 40px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.links-footer .links1,
+.links-footer .links2 {
+  margin-right: 30px;
+  padding-right: 20px;
+}
+
+.links-footer .links1 ul li,
+.links-footer .links2 ul li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  margin: 5px 5px 8px 5px;
+}
+
+.links-footer .links1 ul li:hover,
+.links-footer .links2 ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.links-footer .links1 ul li:nth-child(1),
+.links-footer .links2 ul li:nth-child(1) {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  footer {
+    display: block;
+  }
+  footer h2 {
+    padding-top: 30px;
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 600px) {
+  .links-footer {
+    margin: 0;
+  }
+  .links-footer .links1 ul li,
+  .links-footer .links2 ul li {
+    font-size: 17px;
+  }
+}
+
+/* ---------------------------- copy-right -------------------------- */
+
+.copy-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  background: 0;
+  color: #007bc7;
+  margin: 5px 5px 5px 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  float: left;
+  width: 100%;
+}
+.copy-right h2 {
+  color: black;
+  margin-top: 10px;
+  padding: 7px;
+}
+.copy-right p {
+  margin: 10px;
+  padding: 7px;
+  border: 1px solid #b2d7ee;
+  color: #007bc7;
+  text-align: center;
+}
+
+.copy-right :hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .copy-right p {
+    margin: 2px;
+    padding: 2px;
+    font-size: 17px;
+  }
+
+  footer h2 {
+    display: none;
+  }
+}
